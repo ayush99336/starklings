@@ -1,11 +1,9 @@
 // Make me compile without changing the indicated lines
 
-// I AM NOT DONE
-
 fn main() {
     let arr0 = array![];
 
-    let mut _arr1 = fill_arr(arr0);
+    let mut _arr1 = fill_arr(arr0.clone());
 
     // Do not change the following line!
     println!("{:?}", arr0);
